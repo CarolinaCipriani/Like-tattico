@@ -1,0 +1,243 @@
+*{
+  padding: 0;
+  margin:  0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#F5EEA4;
+  padding: 0% 10% 0% 10%
+}
+
+header {
+  font-size: 2em;
+  font-family: 'Wix Madefor Display', sans-serif; 
+  line-height: 100%;
+} 
+
+  
+.logo {
+  float: center;
+  width: 120px;
+  height: 120px;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  
+  }
+
+p {
+  font-family: 'Petrona', serif;
+  font-size: 0.9em;
+  margin-top: 1%;
+  margin-bottom: 1%
+}  
+
+header, section {
+  padding: 0% 0% 0px 0% ;
+}
+
+h1 {
+  font-family: 'Wix Madefor Display', sans-serif;
+  font-size: 1.8;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 1%
+} 
+
+h2 {
+  font-size: 1.8em;
+  font-family: 'Wix Madefor Display', sans-serif;
+  margin-bottom: 0%; 
+}
+
+h3 {
+margin-top: 0%;
+padding-top: 2%;
+padding-bottom: 1%;
+font-family:'Petrona', serif;
+font-weight: lighter;
+font-size: 1.1em;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
+  padding-top: 4%;
+  color:#AD118C;
+}
+main  {
+  text-align: center;
+}
+
+.img-sfondocategorie {
+background-image: url(immagini/pescePNG);
+}
+
+h5 { 
+  font-family: 'Petrona', serif;
+  font-size: 1.2em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 2%;
+  padding-bottom: 0%;
+}
+
+h6 {
+    margin-top: 0%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    font-family:'Petrona', serif;
+    font-weight: lighter;
+    font-size: 1.1em;
+    }
+
+h7 {
+      margin-top: 5%;
+      padding-top: 10%;
+      padding-bottom: 1%;
+      text-align: center;
+      align-items: center;
+      font-family:'Petrona', serif;
+      font-weight: lighter;
+      font-size: 1.1em;
+      color:#AD118C;
+      }
+
+h8 {
+  font-family: 'Petrona', serif;
+  font-size: 1.1em;
+  padding-bottom: 3%;
+  margin-bottom: 3%;
+  color: #AD118C;
+}
+
+video {
+float:center !important; 
+height: 10%;
+width: 20%;
+align-items:center;
+
+}
+
+nav {
+  display: flex;
+  float:center;
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 13%;
+  padding-right: 13%; 
+}
+
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+ 
+  
+}
+
+nav ul li a{
+  color: rgba(228, 15, 175, 0.849);
+  font-family: 'Wix Madefor Text', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+nav ul li a:hover{
+  color: #AD118C;
+  transition: opacity .25s ease-in-out
+}
+
+.grid {
+  display: flex;
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: space-between;
+  padding: 4% 6% 2% 4%;
+  float: both;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+
+.grid-container a {
+  position: relative;
+  align-items: center !important;
+  text-align: center !important;
+  display: inline-block;
+  text-decoration: none;
+  padding: 3% 4% 3% 4%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.grid-container a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #AD118C;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.categorie a:hover{
+  color: #FBDA30;
+  transition: .3s;
+  transition: opacity .25s ease-in-out
+}
+
+a {
+  text-decoration: none;
+}
+
+section, h3 {
+  font-size: 1.5em;
+  text-align: center
+}
+
+footer {
+  text-align: center !important;
+  font-size: 1.5em;
+  padding-bottom: 10%;
+  padding-top: 10%
+}
+
+#immaginecontesto {
+width: 800px;
+height: 200px;
+float: center;
+}
+
+#immaginegenere {
+  width: 800px;
+  height: 200px;
+  float: center;
+  }
+
+  #immaginemessaggio  {
+    width: 800px;
+    height: 200px;
+    float: center;
+    }
+
+    #architettura {
+      float: center;
+      margin: bottom 2%;
+      }
+
+      #nondisponibile {
+        height: 200px;
+        width: 500px;
+        float: center;
+      }
+
+  #valutazione {
+height: 570px;
+  } 
